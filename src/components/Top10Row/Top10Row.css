@@ -1,0 +1,67 @@
+.top10-row {
+  margin-left: 20px;
+  margin-top: 50px;
+  position: relative;
+}
+
+.top10-title {
+  color: white;
+  font-size: 1.6rem;
+  margin-bottom: 15px;
+  font-weight: 700;
+}
+
+.top10-posters {
+  display: flex;
+  gap: 30px;
+  align-items: center;
+  overflow-x: auto;
+  padding-bottom: 10px;
+}
+
+.top10-posters::-webkit-scrollbar {
+  display: none;
+}
+
+/* Container with number + poster */
+.top10-item {
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+/* Netflix ranking numbers */
+.rank-number {
+  font-size: 120px;
+  font-weight: 900;
+  color: #e50914;
+  line-height: 0.9;
+  margin-right: -20px;
+  z-index: 1;
+  text-shadow: 0 4px 12px rgba(0,0,0,0.6);
+}
+
+/* Poster styling */
+.top10-poster {
+  width: 160px;
+  border-radius: 4px;
+  transform-origin: center left;
+  transition: transform .25s ease, margin .25s ease;
+  z-index: 2;
+}
+
+/* Hovered poster grows */
+.top10-poster.hovered {
+  transform: scale(1.45);
+  z-index: 5;
+}
+
+/* Items BEFORE hovered shift left */
+.top10-poster.shift-left {
+  transform: translateX(-40px);
+}
+
+/* Items AFTER hovered shift right */
+.top10-poster.shift-right {
+  transform: translateX(40px);
+}

@@ -1,0 +1,74 @@
+.header-container {
+  width: 100%;
+  background-color: #141414;
+  position: fixed;
+  top: 0;
+  height: 70px;
+  z-index: 100;
+  display: flex;
+  align-items: center;
+}
+
+.header-box {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 40px;
+  align-items: center;
+}
+
+.lists {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+
+.lists a {
+  text-decoration: none;
+  color: white;
+  font-size: 14px;
+}
+
+.lists a:hover {
+  color: #b3b3b3;
+}
+
+.logo img {
+  height: 28px;
+  width: auto;
+  object-fit: contain;
+  cursor: pointer;
+}
+
+
+.left-list li {
+  font-size: 14px;
+  cursor: pointer;
+}
+
+
+.mui-icon {
+  color: white;
+  font-size: 28px;
+  cursor: pointer;
+}
+
+
+.mui-avatar {
+  width: 32px;
+  height: 32px;
+  cursor: pointer;
+}
+
+
+.header-container {
+  transition: background-color 0.3s ease;
+}
+
+.header-scrolled {
+  background-color: black;
+}
