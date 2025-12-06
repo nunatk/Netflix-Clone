@@ -7,7 +7,6 @@ import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import Avatar from "@mui/material/Avatar";
 
 import "./Header.css";
-import logo from "../../assets/images/Netflix_2015_logo.svg";
 import avatarImg from "../../assets/images/Netflix-avatar.png";
 
 export default function Header() {
@@ -19,7 +18,7 @@ export default function Header() {
         <ul className="lists left-list">
           <li className="logo">
             <Link to="/">
-              <img src={logo} alt="Netflix Logo" />
+              <h2 className="clone-logo">Netflix Clone</h2>
             </Link>
           </li>
 
