@@ -1,6 +1,6 @@
 import Banner from "../Banner/Banner";
 import Row from "../Row/Row";
-import Top10Row from "../Top10Row/Top10Row";
+
 import requests from "../Api/Requests";
 
 export default function Home() {

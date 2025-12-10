@@ -6,7 +6,7 @@ import Header from "./components/Header/Header";
 import Footer from "./components/Footer/Footer";
 import Banner from "./components/Banner/Banner";
 import Row from "./components/Row/Row";
-import Top10Row from "./components/Top10Row/Top10Row";
+
 
 
 import Home from "./components/Pages/Home";
@@ -39,7 +39,7 @@ function App() {
               <Row title="Comedy Movies" fetchUrl={requests.comedy} />
               <Row title="Crime Movies" fetchUrl={requests.crime} />
               <Row title="Documentaries" fetchUrl={requests.documentary} />
-              <Top10Row title="Top 10 Movies Today" fetchUrl={requests.top10Movies} isLarge />
+              {/* <Top10Row title="Top 10 Movies Today" fetchUrl={requests.top10Movies} isLarge /> */}
              
               <Row title="Drama Movies" fetchUrl={requests.drama} />
               <Row title="Family Movies" fetchUrl={requests.family} />
@@ -49,7 +49,7 @@ function App() {
               <Row title="Music Movies" fetchUrl={requests.music} />
               <Row title="Mystery Movies" fetchUrl={requests.mystery} />
 
-              <Top10Row title="Top 10 TV Shows Today" fetchUrl={requests.top10TV} isLarge />
+              {/* <Top10Row title="Top 10 TV Shows Today" fetchUrl={requests.top10TV} isLarge /> */}
               <Row title="Romance Movies" fetchUrl={requests.romance} />
               <Row title="Sci-Fi Movies" fetchUrl={requests.scienceFiction} />
               <Row title="TV Movies" fetchUrl={requests.tvMovie} />
