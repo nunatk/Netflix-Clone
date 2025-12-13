@@ -37,12 +37,19 @@
   color: #b3b3b3;
 }
 
+.logo {
+  display: flex;
+  align-items: center;
+}
+
 .logo img {
-  height: 28px;
+  height: 45px;
   width: auto;
   object-fit: contain;
   cursor: pointer;
+  margin-top: 2px;
 }
+
 
 
 .left-list li {

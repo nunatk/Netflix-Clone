@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 import SearchIcon from "@mui/icons-material/Search";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 import Avatar from "@mui/material/Avatar";
-
+import logo from "../../assets/images/Netflix_2015_logo.svg"
 import "./Header.css";
 import avatarImg from "../../assets/images/Netflix-avatar.png";
 
@@ -18,7 +18,8 @@ export default function Header() {
         <ul className="lists left-list">
           <li className="logo">
             <Link to="/">
-              <h2 className="clone-logo">Netflix Clone</h2>
+            <img src={logo} alt="Logo" />
+              {/* <h2 className="clone-logo">Netflix Clone</h2> */}
             </Link>
           </li>
 

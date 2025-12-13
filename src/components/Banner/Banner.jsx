@@ -48,7 +48,7 @@ export default function Banner() {
       onMouseEnter={() => setIsHovered(true)}
       onMouseLeave={() => setIsHovered(false)}
     >
-      {/* IMAGE */}
+      {/* BACKGROUND IMAGE */}
       <div
         className={`banner-image ${isHovered ? "hide" : "show"}`}
         style={{
@@ -67,7 +67,7 @@ export default function Banner() {
         ></iframe>
       )}
 
-      {/* CONTENT */}
+      {/* CONTENT (fixed) */}
       <div className="banner-contents">
         <h1 className="banner-title">
           {movie.title || movie.name || movie.original_name}
@@ -77,7 +77,6 @@ export default function Banner() {
           {movie.overview?.slice(0, 200)}...
         </p>
 
-        {/* MUI PLAY and INFO BUTTONS */}
         <div className="banner-buttons">
           <button className="banner-btn play">
             <PlayArrow /> Play

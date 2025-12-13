@@ -1,7 +1,7 @@
 import React from "react";
 import Row from "../Row/Row";
 import requests from "../Api/Requests";
-import "./Languages.css"; // <-- NEW CSS FILE
+import "./Languages.css"; 
 
 export default function Languages() {
   return (
@@ -14,9 +14,9 @@ export default function Languages() {
           <label className="language-label">Original Language</label>
           <select className="language-dropdown">
             <option>English</option>
+            <option>Amharic</option>
             <option>Spanish</option>
-            <option>Korean</option>
-            <option>Hindi</option>
+            <option>French</option>
           </select>
         </div>
 
@@ -25,8 +25,8 @@ export default function Languages() {
           <label className="language-label">Audio Language</label>
           <select className="language-dropdown">
             <option>English</option>
+            <option>Amharic</option>
             <option>Spanish</option>
-            <option>Japanese</option>
             <option>French</option>
           </select>
         </div>

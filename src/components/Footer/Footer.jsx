@@ -49,7 +49,7 @@ export default function Footer() {
           </ul>
         </div>
 
-        <p className="footer-copy">&copy; 1997–2025 Netflix, Inc.</p>
+        <p className="footer-copy">&copy; 1997-2025 Netflix, Inc.</p>
       </div>
     </div>
   );
